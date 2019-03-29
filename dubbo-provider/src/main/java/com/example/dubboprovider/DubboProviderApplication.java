@@ -12,6 +12,7 @@ public class DubboProviderApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(DubboProviderApplication.class, args);
+        while (true) {}
     }
 
 }
